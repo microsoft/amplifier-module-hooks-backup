@@ -1,0 +1,2 @@
+[amplifier.modules]
+hooks-backup = amplifier_mod_hooks_backup:mount
