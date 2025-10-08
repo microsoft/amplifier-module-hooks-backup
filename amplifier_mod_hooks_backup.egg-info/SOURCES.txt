@@ -1,9 +1,0 @@
-LICENSE
-pyproject.toml
-amplifier_mod_hooks_backup/__init__.py
-amplifier_mod_hooks_backup.egg-info/PKG-INFO
-amplifier_mod_hooks_backup.egg-info/SOURCES.txt
-amplifier_mod_hooks_backup.egg-info/dependency_links.txt
-amplifier_mod_hooks_backup.egg-info/entry_points.txt
-amplifier_mod_hooks_backup.egg-info/requires.txt
-amplifier_mod_hooks_backup.egg-info/top_level.txt
