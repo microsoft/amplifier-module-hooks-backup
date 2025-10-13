@@ -16,6 +16,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # Windows
 powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
+
 ## Purpose
 
 Automatically saves conversation transcripts to persistent storage for backup, audit, or replay purposes.
@@ -24,7 +25,7 @@ Automatically saves conversation transcripts to persistent storage for backup, a
 
 **Module Type:** Hook
 **Mount Point:** `hooks`
-**Entry Point:** `amplifier_mod_hooks_backup:mount`
+**Entry Point:** `amplifier_module_hooks_backup:mount`
 
 ## Behavior
 
