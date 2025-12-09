@@ -3,6 +3,9 @@ Transcript backup hook module for Amplifier.
 Saves conversation transcripts before compaction and at session end.
 """
 
+# Amplifier module metadata
+__amplifier_module_type__ = "hook"
+
 import json
 import logging
 from datetime import datetime
