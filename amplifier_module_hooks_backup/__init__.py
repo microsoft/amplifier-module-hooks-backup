@@ -164,7 +164,7 @@ class TranscriptBackupHook:
         """
         if self.format == "jsonl":
             # Save as JSONL (one message per line)
-            with open(filepath, "w") as f:
+            with open(filepath, "w", encoding="utf-8") as f:
                 if self.include_metadata:
                     f.write(json.dumps({"metadata": metadata}) + "\n")
 
@@ -178,8 +178,8 @@ class TranscriptBackupHook:
             if self.include_metadata:
                 transcript["metadata"] = metadata
 
-            with open(filepath, "w") as f:
-                json.dump(transcript, f, indent=2)
+            with open(filepath, "w", encoding="utf-8") as f:
+                json.dump(transcript, f, indent=2, ensure_ascii=False)
 
         else:
             raise ValueError(f"Unknown format: {self.format}")
